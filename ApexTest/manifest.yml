@@ -1,0 +1,9 @@
+applications:
+- name: ApexTest
+path: target\ApexTest-0.0.1-SNAPSHOT.jar
+buildpack: https://github.com/cloudfoundry/java-buildpack.git
+memory: 1G
+services:
+  - ApexDatas
+env:
+  spring_jpa_hibernate_ddl-auto: update
