@@ -7,5 +7,4 @@
 add some properties here to push Pivotal Cloud
 
 ## push your app  to PCF 
-goto to app root directory using cd 
-use " cf push appname "
+goto to app root directory using cd  and use " cf push appname " 
